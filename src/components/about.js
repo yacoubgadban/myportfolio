@@ -3,7 +3,7 @@ import React  from 'react';
 
 class About extends React.Component{
     state = {
-        container:1000
+        container:700
     }
     
     
