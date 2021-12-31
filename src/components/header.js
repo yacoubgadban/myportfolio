@@ -5,35 +5,35 @@ class Header extends React.Component{
     render(){
             return(
             <div className="header">
-               <div class="container">
-               <nav class="navbar navbar-expand-lg navbar-light bg-light">
-               <div class="container-fluid">
+               <div className="container">
+               <nav className="navbar navbar-expand-lg navbar-light bg-light">
+               <div className="container-fluid">
 
-    <div class="collapse navbar-collapse" id="navbarText">
-      <ul class="navbar-nav me-auto mb-2 ">
+    <div className="collapse navbar-collapse" id="navbarText">
+      <ul className="navbar-nav me-auto mb-2 ">
       <Link to="/">
-    <li class="nav-item">
-          <a class="nav-link" >Home</a>
+    <li className="nav-item">
+          <a className="nav-link" >Home</a>
     </li>    
     </Link>
       <Link to="/about">
-        <li class="nav-item">
-          <a class="nav-link " >About</a>
+        <li className="nav-item">
+          <a className="nav-link " >About</a>
         </li>
         </Link>
         
         <Link to="/Projects">
-        <li class="nav-item">
-          <a class="nav-link" >Projects</a>
+        <li className="nav-item">
+          <a className="nav-link" >Projects</a>
         </li>
         </Link>
         <Link to="/contact">
-        <li class="nav-item">
-          <a class="nav-link" >Contact</a>
+        <li className="nav-item">
+          <a className="nav-link" >Contact</a>
         </li>
         </Link>
       </ul>
-      <span class="navbar-text">
+      <span className="navbar-text">
       yacoub gadban site
       </span>
     </div>
