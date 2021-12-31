@@ -10,7 +10,7 @@ class Header extends React.Component{
                <div class="container-fluid">
 
     <div class="collapse navbar-collapse" id="navbarText">
-      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+      <ul class="navbar-nav me-auto mb-2 ">
       <Link to="/">
     <li class="nav-item">
           <a class="nav-link" >Home</a>
