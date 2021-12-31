@@ -5,7 +5,7 @@ class Header extends React.Component{
     render(){
             return(
                 <div className="container">
-                <ul className="navs" style={{backgroundColor: '#e3f2fd'}}>
+                <ul className="nav" style={{backgroundColor: '#e3f2fd'}}>
                 <li><a href="/" ><i className="fa fa-home"></i>Home</a></li>
                 <li><a href="/about"><i className="fa fa-user"></i>About</a></li>
                 <li><a href="/projects"><i className="fa fa-list"></i>Projects</a></li>
