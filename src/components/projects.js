@@ -1,7 +1,7 @@
 import React  from 'react';
 
 
-class Main extends React.Component{
+class Projects extends React.Component{
     state = {
         container:1000
     }
@@ -10,7 +10,7 @@ class Main extends React.Component{
     render(){
         setTimeout(() => {
             if(this.state.container>0){
-                 this.setState({container:this.state.container-2});               
+                 this.setState({container:this.state.container-0.5});               
             }
            
         }, 10)
@@ -18,8 +18,7 @@ class Main extends React.Component{
         <div className="main">
         <div className="text-center">
             <div style={{position: 'relative',left:this.state.container}}>  
-                <img className="profileImg" src="profile.jpg"/>
-                <h2 className="name">yacoub gadban</h2>
+                <h2 className="name">Projects</h2>
             </div>
         </div>
     </div>
@@ -28,4 +27,4 @@ class Main extends React.Component{
 
     }
 
-export default Main;
+export default Projects;
