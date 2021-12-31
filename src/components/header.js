@@ -4,41 +4,15 @@ class Header extends React.Component{
 
     render(){
             return(
-            <div className="header">
-               <div class="container">
-                    <div class="row">
-                    <h3 className="name">Yacoub Gadban</h3>
-                        <br/>
-                        <br/>
-                        
-                        <div class="col-sm-1">
-                         <Link to="/">
-                        <a>Home</a>
-                        </Link>
-                        </div>
-                        
-                        <div  class="col-sm-1">
-                        <Link to="/about">
-                        <a>About</a>             
-                        </Link>
-                        </div>
-                        
-                        <div class="col-sm-1">
-                        <Link to="/projects">
-                        <a>Projects</a>
-                        </Link>
-                        </div>
-                        
-                        <div class="col-sm-1">
-                        <Link to="/contact">
-                        <a>Contact</a>
-                        </Link>
-                        </div>
-
-                    </div>
-                    </div>
-            <hr/>
-            </div>
+                <div className="container">
+                <ul className="nav">
+                <li><a href="/" ><i className="fa fa-home"></i>Home</a></li>
+                <li><a href="/about"><i className="fa fa-user"></i>About</a></li>
+                <li><a href="/projects"><i className="fa fa-list"></i>Projects</a></li>
+                <li><a href="/contact"><i className="fa fa-briefcase"></i>Contact</a></li>
+              </ul>
+              <hr/>
+              </div>
             )
         }
 
