@@ -9,7 +9,7 @@ class Header extends React.Component{
                <nav className="navbar navbar-expand-lg navbar-light bg-light">
                <div className="container-fluid">
 
-    <div className="collapse navbar-collapse" id="navbarText">
+    <div >
       <ul className="navbar-nav me-auto mb-2 ">
       <Link to="/">
     <li className="nav-item">
@@ -24,7 +24,7 @@ class Header extends React.Component{
         
         <Link to="/Projects">
         <li className="nav-item">
-          <a  >Projects</a>
+          <a className="nav-link" >Projects</a>
         </li>
         </Link>
         <Link to="/contact">
