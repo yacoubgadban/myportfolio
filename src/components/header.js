@@ -7,19 +7,18 @@ class Header extends React.Component{
             <div className="header">
                <div class="container">
                <nav class="navbar navbar-expand-lg navbar-light bg-light">
-  <div class="container-fluid">
-  <Link to="/">
-    <a class="navbar-brand" href="/">Home</a>
-    </Link>
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
+               <div class="container-fluid">
+
     <div class="collapse navbar-collapse" id="navbarText">
       <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-      
+      <Link to="/">
+    <li class="nav-item">
+          <a class="nav-link" >Home</a>
+    </li>    
+    </Link>
       <Link to="/about">
         <li class="nav-item">
-          <a class="nav-link active" aria-current="page">About</a>
+          <a class="nav-link " >About</a>
         </li>
         </Link>
         
