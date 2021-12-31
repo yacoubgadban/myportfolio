@@ -34,7 +34,7 @@ class Header extends React.Component{
         </Link>
       </ul>
       <span class="navbar-text">
-        Navbar text with an inline element
+      yacoub gadban site
       </span>
     </div>
   </div>
