@@ -10,7 +10,7 @@ class Main extends React.Component{
     render(){
         setTimeout(() => {
             if(this.state.container>0){
-                 this.setState({container:this.state.container-0.5});               
+                 this.setState({container:this.state.container-2});               
             }
            
         }, 100)

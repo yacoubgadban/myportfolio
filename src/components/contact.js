@@ -10,10 +10,10 @@ class Contact extends React.Component{
     render(){
         setTimeout(() => {
             if(this.state.container>0){
-                 this.setState({container:this.state.container-0.5});               
+                 this.setState({container:this.state.container-2});               
             }
            
-        }, 100)
+        }, 10)
         return(
         <div className="content">
             <div style={{position: 'relative',left:this.state.container}}>  
