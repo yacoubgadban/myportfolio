@@ -13,7 +13,7 @@ class Main extends React.Component{
                  this.setState({container:this.state.container-0.5});               
             }
            
-        }, 10)
+        }, 100)
         return(
         <div className="main">
         <div className="text-center">

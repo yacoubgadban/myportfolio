@@ -13,7 +13,7 @@ class Contact extends React.Component{
                  this.setState({container:this.state.container-0.5});               
             }
            
-        }, 10)
+        }, 100)
         return(
         <div className="content">
             <div style={{position: 'relative',left:this.state.container}}>  
