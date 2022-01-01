@@ -18,11 +18,11 @@ class About extends React.Component{
         <div className="main">
         <div className="text-center">
             <div style={{position: 'relative',left:this.state.container}}>  
-                <h2 className="name">About</h2>
+                <h2 className="name">About Me</h2>
                 <div className="content">
                 <p>My name is Yacoub Gadban im 33 years old</p>
                 <p>Im Practical Software Engineer</p>
-                <p>1 years of experience in web developer</p>
+                <p>1 year of experience in web development</p>
 
             </div>
             </div>

@@ -54,7 +54,7 @@ class Contact extends React.Component{
                   <br/>
 
                     <div class="row">
-                      <form class="contact-form padd-15" action="MAILTO:vladche99@gmail.com" method="post" enctype="text/plain">
+                      <form class="contact-form padd-15" action="MAILTO:yacoub.gadban@gmail.com" method="post" enctype="text/plain">
                         <div class="row">
                             <div class="form-item col-6 padd-15">
                                 <div class="form-group">
@@ -92,7 +92,7 @@ class Contact extends React.Component{
                         <div class="row">
                           <div class="form-item col-12 padd-15">
                               <div class="form-group">
-                                  <button type="submit" class="name">Send Message</button>
+                                  <button type="submit" class="btn">Send Message</button>
                               </div>
                           </div>
                         </div>
