@@ -1,4 +1,5 @@
 import React  from 'react';
+import ReactDOM  from 'react-dom';
 
 
 class Projects extends React.Component{
@@ -19,17 +20,17 @@ class Projects extends React.Component{
             <div className="text-center" style={{position: 'relative',left:this.state.container}}>  
                 <h2 className="name">Projects</h2>
 <br/><br/>
-                <div class="container">
-  <div class="row">
-    <div class="col-sm">
+                <div className="container">
+  <div className="row">
+    <div className="col-sm">
         <img style={{width:300}} src="https://thebrillianthealth.org/wp-content/uploads/2021/10/realistic-coming-soon-background_23-2148889082.jpg" alt=""/>    
     <p className="name">project 1</p>
     </div>
-    <div class="col-sm">
+    <div className="col-sm">
     <img style={{width:300}} src="https://thebrillianthealth.org/wp-content/uploads/2021/10/realistic-coming-soon-background_23-2148889082.jpg" alt=""/>    
     <p className="name">project 2</p>
     </div>
-    <div class="col-sm">
+    <div className="col-sm">
     <img style={{width:300}} src="https://thebrillianthealth.org/wp-content/uploads/2021/10/realistic-coming-soon-background_23-2148889082.jpg" alt=""/>    
     <p className="name">project 3</p>
     </div>
