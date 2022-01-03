@@ -1,6 +1,5 @@
 .header {
   margin-top: 20px;
-
 }
 
 .name {
@@ -11,8 +10,8 @@
   margin-top: 20px;
 }
 .profileImg {
-  width: 250px;
-  height: 250px;
+  width: 200px;
+  height: 200px;
   border-radius: 50%;
 }
 a {
@@ -40,11 +39,9 @@ li {
   align-items: center;
   width: 100%;
 }
-.social-links{
-  padding:20px;
-
+.social-links {
+  padding: 20px;
 }
-svg{
+svg {
   color: #03a9fa;
-
 }
