@@ -62,9 +62,7 @@ class Header extends React.Component{
         </li>
         </Link>
       </ul>
-      <span className="navbar-text">
-      yacoub gadban site
-      </span>
+      
     </div>
 </nav>
                     </div>
