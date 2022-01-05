@@ -74,39 +74,14 @@
   }
 }
 
-.img {
+.profileImg {
   width: 250px;
   height: 250px;
-  
-}
-.box img {
-  backface-visibility: hidden;
-  transition: 1s;
-  transform-style: preserve-3d;
-  animation: animate2 5s linear infinite;
-  border-radius: 50%;
-}
-.box img:nth-child(1) {
-  transform: rotateY(0deg);
-}
-.box:hover img:nth-child(1) {
-  transform: rotateZ(30deg);
+  border-radius:10px;
+  box-shadow: 10px 2px 5px #393d4d;
 
 }
-@keyframes animate2{
-  0%,10%,35%
-  {
-    transform:perspective(0px) rotateZ(0deg)
-  }
-  50% {
-    transform:perspective(0px) rotateZ(5deg)
-  }
-  100% {
-    transform:perspective(0px) rotateZ(0deg)
-  }
-  
-  
-}
+
 a:link {
   text-decoration: none;
   font-size: 20px;
