@@ -75,10 +75,9 @@
 }
 
 .profileImg {
-  width: 250px;
-  height: 250px;
+  width: 200px;
+  height: 210px;
   border-radius:10px;
-  box-shadow: 10px 2px 5px #393d4d;
 
 }
 
