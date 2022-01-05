@@ -1,18 +1,17 @@
 .body {
   background-color: #252839;
- height: 100vh;
+  height: 100vh;
   display: flex;
   align-items: center;
   justify-content: center;
   scroll-snap-align: start;
-
 }
-.allweb{
-  scroll-snap-type:y mandatory;
-  overflow-y:scroll;
+.allweb {
+  scroll-snap-type: y mandatory;
+  overflow-y: scroll;
   height: 100vh;
-  
 }
+
 .title {
   font-family: 'Licorice', cursive;
   color: #2b2d3b;
@@ -40,7 +39,9 @@
   -webkit-texe-stroke: 0.3vw #383d52;
   text-transform: uppercase;
   position: relative;
-  font-size:40px;
+  z-index: 1;
+  overflow: hidden;
+  font-size: 40px;
 }
 .name::before {
   content: attr(data-text);
@@ -53,12 +54,12 @@
   -webkit-texe-stroke: 0vw #383d52;
   overflow: hidden;
   animation: animate 6s linear infinite;
+  text-shadow: 5px 4px 1px #393d4d;
 }
-.desc{
+
+.desc {
   font-family: 'Licorice', cursive;
-  color:#03a9fa;
-  ;
-  
+  color: #03a9fa;
   position: relative;
 }
 @keyframes animate {
@@ -73,16 +74,39 @@
   }
 }
 
-
-
-.profileImg {
+.img {
   width: 250px;
   height: 250px;
+  
+}
+.box img {
+  backface-visibility: hidden;
+  transition: 1s;
+  transform-style: preserve-3d;
+  animation: animate2 5s linear infinite;
   border-radius: 50%;
 }
+.box img:nth-child(1) {
+  transform: rotateY(0deg);
+}
+.box:hover img:nth-child(1) {
+  transform: rotateZ(30deg);
 
-
-
+}
+@keyframes animate2{
+  0%,10%,35%
+  {
+    transform:perspective(0px) rotateZ(0deg)
+  }
+  50% {
+    transform:perspective(0px) rotateZ(5deg)
+  }
+  100% {
+    transform:perspective(0px) rotateZ(0deg)
+  }
+  
+  
+}
 a:link {
   text-decoration: none;
   font-size: 20px;
@@ -117,11 +141,10 @@ svg {
   width: 300px;
 }
 
-
 .contact {
   color: #03a9fa;
 }
 
-.main{
-  margin:20px;
+.main {
+  margin: 20px;
 }

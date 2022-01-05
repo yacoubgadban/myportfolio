@@ -1,6 +1,6 @@
 import React  from 'react';
 import ReactDOM  from 'react-dom';
-
+import myvid from '../particles.mp4'
 
 class Main extends React.Component{
    
@@ -14,13 +14,14 @@ class Main extends React.Component{
         <div className="main">
         <div className="text-center">
             <div > 
-                <div>
+                <div className="box">
                 <img className="profileImg" src="profile.jpg"/>
-
+                
                 </div> 
                 <br/>
                 <div>
-                <h2 className="name" data-text="Yacoub.Gadban">Yacoub Gadban</h2>
+                   
+                <h2 className="name" data-text="Yacoub.Gadban"><span>Y</span>acoub <span>G</span>adban</h2>
                 <br/>
                 <h2 className="desc" >Web Developer</h2>
                 </div>
