@@ -3,32 +3,22 @@ import ReactDOM  from 'react-dom';
 
 
 class About extends React.Component{
-    state = {
-        container:700
-    }
-    
-    
+   
     render(){
-        setTimeout(() => {
-            if(this.state.container>0){
-                 this.setState({container:this.state.container-2});               
-            }
-           
-        }, 10)
+        
         return(
-        <div className="main">
+            <div className="body">
+      
         <div className="text-center">
-            <div style={{position: 'relative',left:this.state.container}}>  
-                <h2 className="name">About Me</h2>
-                <div className="content">
-                <p>My name is Yacoub Gadban im 33 years old</p>
-                <p>Im Practical Software Engineer</p>
-                <p>1 year of experience in web development</p>
-
-            </div>
-            </div>
-           
+             
+                <h2 className="title" data-text="About..Me:)">About..Me:)</h2>
+                    <div className="content">
+                        <a>My name is Yacoub Gadban im 33 years old</a><br/>
+                        <a>Im Practical Software Engineer</a><br/>
+                        <a>1 year of experience in web development</a><br/>
+                    </div>     
         </div>
+    
     </div>
         )
         }

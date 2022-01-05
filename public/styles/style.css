@@ -1,13 +1,57 @@
 .header {
-  margin-top: 20px;
+}
+
+.title {
+  font-family: 'Licorice', cursive;
+  color: #373b53;
+  -webkit-texe-stroke:0.3vw #383d52;
+  
+  position: relative;
+}
+.title::before{
+  content:attr(data-text);
+  position:absolute;
+  top:0;
+  left:0;
+  width: 0;
+  height: 100%;
+  color:#01fe87;
+  -webkit-texe-stroke:vw #383d52;
+  overflow: hidden;
+  animation:animate 6s linear infinite;
 }
 
 .name {
   font-family: 'Licorice', cursive;
-  color: #03a9fa;
+  color: #373b53;
+  -webkit-texe-stroke:0.3vw #383d52;
+  text-transform: uppercase;
+  position: relative;
+}
+.name::before{
+  content:attr(data-text);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 0;
+  height: 100%;
+  color:#01fe87;
+  -webkit-texe-stroke:0vw #383d52;
+  overflow: hidden;
+  animation:animate 6s linear infinite;
+}
+@keyframes animate 
+{
+  0%,10%,100% 
+  {
+    width: 0;
+  }
+  70% ,90%
+  {
+    width: 100%;
+  }
 }
 .main {
-  margin-top: 20px;
 }
 .profileImg {
   width: 200px;
@@ -24,12 +68,11 @@ a:link {
 }
 
 .content {
-  margin-top: 20px;
   font-size: 24px;
   font-family: 'Licorice', cursive;
+  color: white;
 }
 li {
-  padding: 5px;
 }
 
 .nav {
@@ -43,5 +86,19 @@ li {
   padding: 20px;
 }
 svg {
+  color: #03a9fa;
+}
+.project-img {
+  border: solid green 5px;
+  width: 300px;
+}
+.body {
+  background-color: #252839;
+  min-height: 60vh;
+  display:flex;
+  align-items: center;
+  justify-content: center;
+}
+.contact{
   color: #03a9fa;
 }
