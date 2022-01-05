@@ -9,9 +9,9 @@ class About extends React.Component{
         return(
             <div className="body">
       
-        <div className="text-center">
+        <div >
              
-                <h2 className="title" data-text="About..Me:)">About..Me:)</h2>
+                <h2 className="title" data-text="About..Me:)" style={{width:'37%'}}>About..Me:)</h2>
                     <div className="content">
                         <a>My name is Yacoub Gadban im 33 years old</a><br/>
                         <a>Im Practical Software Engineer</a><br/>

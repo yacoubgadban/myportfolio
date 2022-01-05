@@ -9,8 +9,8 @@ class Projects extends React.Component{
         return(
             <div className="body">
         <div className="main">
-            <div className="container" >  
-                <h2 className="title" data-text="Projects">Projects</h2>
+            <div >  
+            <h2 className="title" data-text="Projects" style={{width: '14%'}}>Projects</h2>
               
   <div className="row">
     <div className="col-sm">

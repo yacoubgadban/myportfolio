@@ -11,10 +11,10 @@ class Contact extends React.Component{
           <div className="body">
         <div className="content">
             <div>  
-              <div className="container">
-                  <div className="text-center">
+              <div className="">
+                  <div className="">
                       <div className="section-title padd-15">
-                          <h2 className="title" data-text="Contact..Me">Contact..Me</h2>
+                          <h2 className="title" data-text="Contact..Me" style={{width:'22%'}}>Contact..Me</h2>
                       </div>
                   </div>
                   <br/>
