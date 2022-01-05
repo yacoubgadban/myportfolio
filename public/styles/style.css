@@ -4,63 +4,73 @@
 .title {
   font-family: 'Licorice', cursive;
   color: #373b53;
-  -webkit-texe-stroke:0.3vw #383d52;
-  
+  -webkit-texe-stroke: 0.3vw #383d52;
   position: relative;
-}
-.title::before{
-  content:attr(data-text);
-  position:absolute;
-  top:0;
-  left:0;
-  width: 0;
-  height: 100%;
-  color:#03a9fa;
-  border-right: 2px solid #03a9fa;
-  -webkit-texe-stroke:vw #383d52;
-  overflow: hidden;
-  animation:animate 6s linear infinite;
 }
 
-.name {
-  font-family: 'Licorice', cursive;
-  color: #373b53;
-  -webkit-texe-stroke:0.3vw #383d52;
-  text-transform: uppercase;
-  position: relative;
-}
-.name::before{
-  content:attr(data-text);
+.title::before {
+  content: attr(data-text);
   position: absolute;
   top: 0;
   left: 0;
   width: 0;
   height: 100%;
-  color:#01fe87;
-  -webkit-texe-stroke:0vw #383d52;
+  color: #03a9fa;
+  border-right: 2px solid #03a9fa;
+  -webkit-texe-stroke: vw #383d52;
   overflow: hidden;
-  animation:animate 6s linear infinite;
+  animation: animate 6s linear infinite;
 }
-@keyframes animate 
-{
-  0%,10%,100% 
-  {
+
+.name {
+  font-family: 'Licorice', cursive;
+  color: #373b53;
+  -webkit-texe-stroke: 0.3vw #383d52;
+  text-transform: uppercase;
+  position: relative;
+  font-size:40px;
+}
+.name::before {
+  content: attr(data-text);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 0;
+  height: 100%;
+  color: #01fe87;
+  -webkit-texe-stroke: 0vw #383d52;
+  overflow: hidden;
+  animation: animate 6s linear infinite;
+}
+.desc{
+  font-family: 'Licorice', cursive;
+  color:#03a9fa;
+  ;
+  
+  position: relative;
+}
+@keyframes animate {
+  0%,
+  10%,
+  100% {
     width: 0;
   }
-  70% ,90%
-  {
+  70%,
+  90% {
     width: 100%;
   }
 }
-.main {
-}
+
+
+
 .profileImg {
-  width: 200px;
-  height: 200px;
+  width: 250px;
+  height: 250px;
   border-radius: 50%;
 }
-a {
-}
+
+
+
 a:link {
   text-decoration: none;
   font-size: 20px;
@@ -72,8 +82,6 @@ a:link {
   font-size: 24px;
   font-family: 'Licorice', cursive;
   color: white;
-}
-li {
 }
 
 .nav {
@@ -96,10 +104,13 @@ svg {
 .body {
   background-color: #252839;
   min-height: 60vh;
-  display:flex;
+  display: flex;
   align-items: center;
   justify-content: center;
 }
-.contact{
+.contact {
   color: #03a9fa;
+}
+.main{
+  margin:20px;
 }
