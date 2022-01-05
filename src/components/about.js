@@ -16,9 +16,11 @@ class About extends React.Component{
                         <a>My name is Yacoub Gadban im 33 years old</a><br/>
                         <a>Im Practical Software Engineer</a><br/>
                         <a>1 year of experience in web development</a><br/>
-                    </div>     
+
+                    </div>    
+
         </div>
-    
+
     </div>
         )
         }

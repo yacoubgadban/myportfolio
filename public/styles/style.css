@@ -1,9 +1,21 @@
-.header {
-}
+.body {
+  background-color: #252839;
+ height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  scroll-snap-align: start;
 
+}
+.allweb{
+  scroll-snap-type:y mandatory;
+  overflow-y:scroll;
+  height: 100vh;
+  
+}
 .title {
   font-family: 'Licorice', cursive;
-  color: #373b53;
+  color: #2b2d3b;
   -webkit-texe-stroke: 0.3vw #383d52;
   position: relative;
 }
@@ -24,7 +36,7 @@
 
 .name {
   font-family: 'Licorice', cursive;
-  color: #373b53;
+  color: #2b2d3b;
   -webkit-texe-stroke: 0.3vw #383d52;
   text-transform: uppercase;
   position: relative;
@@ -91,26 +103,25 @@ a:link {
   align-items: center;
   width: 100%;
 }
+
 .social-links {
   padding: 20px;
 }
+
 svg {
   color: #03a9fa;
 }
+
 .project-img {
   border: solid green 5px;
   width: 300px;
 }
-.body {
-  background-color: #252839;
-  min-height: 60vh;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
+
+
 .contact {
   color: #03a9fa;
 }
+
 .main{
   margin:20px;
 }
