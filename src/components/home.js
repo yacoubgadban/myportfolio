@@ -17,31 +17,37 @@ class Main extends React.Component{
                     <span style={{"--i":0}}>Y</span>
                     <span style={{"--i":1}}>A</span>
                     <span style={{"--i":2}}>U</span>
-                    <span style={{"--i":3}}>U</span>
+                    <span style={{"--i":3}}>G</span>
                 </div>
                 <div className="text" style={{"--i":0}}>
                     <span style={{"--i":0}}>A</span>
                     <span style={{"--i":1}}>Y</span>
                     <span style={{"--i":2}}>C</span>
-                    <span style={{"--i":3}}>Y</span>
+                    <span style={{"--i":3}}>A</span>
                 </div>
                 <div className="text" style={{"--i":0}}>
                     <span style={{"--i":0}}>C</span>
                     <span style={{"--i":1}}>A</span>
                     <span style={{"--i":2}}>Y</span>
+                    <span style={{"--i":3}}>D</span>
+                </div>
+                <div className="text" style={{"--i":0}}>
+                    <span style={{"--i":0}}>O</span>
+                    <span style={{"--i":1}}>O</span>
+                    <span style={{"--i":2}}>C</span>
                     <span style={{"--i":3}}>B</span>
                 </div>
                 <div className="text" style={{"--i":0}}>
                     <span style={{"--i":0}}>U</span>
-                    <span style={{"--i":1}}>O</span>
+                    <span style={{"--i":1}}>A</span>
                     <span style={{"--i":2}}>C</span>
-                    <span style={{"--i":3}}>O</span>
+                    <span style={{"--i":3}}>A</span>
                 </div>
                 <div className="text" style={{"--i":0}}>
                     <span style={{"--i":0}}>B</span>
                     <span style={{"--i":1}}>A</span>
                     <span style={{"--i":2}}>C</span>
-                    <span style={{"--i":3}}>A</span>
+                    <span style={{"--i":3}}>N</span>
                 </div>
             </div>  
         <div className="text-center">

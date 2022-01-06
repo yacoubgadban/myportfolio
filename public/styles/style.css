@@ -15,21 +15,21 @@
   display: flex;
   transform-style:preserve-3d;
   gap:10px;
-  transform:rotateY(30deg) rotateX(10deg);
+  transform:rotateY(25deg) rotateX(10deg);
 }
 .cont .text{
   position: relative;
-  width:100px;
-  height: 100px;
+  width:50px;
+  height: 50px;
   transform-style:preserve-3d;
   transition:2.5s ease-in-out;
 
 }
 .cont:hover .text{
-  transform:rotateX(360deg);
+  transform:rotateX(450deg);
 }
 .cont:hover .text:last-child{
-  transform:rotateX(720deg);
+  transform:rotateX(810deg);
 }
 .cont .text::before 
 {
@@ -39,7 +39,7 @@
   height: 100%;
   background:#373737;
   transform-origin: left;
-  transform:rotateY(90deg) translateX(-50px)
+  transform:rotateY(90deg) translateX(-25px)
 
 }
 .cont .text:last-child:before 
@@ -50,7 +50,7 @@
   height: 100%;
   background:#29c040;
   transform-origin: left;
-  transform:rotateY(90deg) translateX(-50px)
+  transform:rotateY(90deg) translateX(-25px)
 
 }
 .cont .text span{
@@ -66,7 +66,7 @@
   font-size:4em;
   color:#fff;
   transform-style: preserve-3d;
-  transform: rotateX(calc(90deg * var(--i))) translateZ(50px)
+  transform: rotateX(calc(90deg * var(--i))) translateZ(25px)
 }
 .cont .text:last-child span
 {
