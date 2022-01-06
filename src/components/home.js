@@ -15,7 +15,7 @@ class Main extends React.Component{
         <div className="text-center">
             <div > 
                 <div className="box">
-                <img className="profileImg" src="profile.jpg"/>
+                <img className="profileImg" src="profile2.jpeg"/>
                 
                 </div> 
                 <br/>
