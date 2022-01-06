@@ -14,7 +14,7 @@
 .cont{
   display: flex;
   transform-style:preserve-3d;
-  gap:10px;
+  gap:8px;
   transform:rotateY(25deg) rotateX(10deg);
 }
 .cont .text{
