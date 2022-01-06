@@ -23,13 +23,15 @@
   height: 50px;
   transform-style:preserve-3d;
   transition:2.5s ease-in-out;
-
 }
 .cont:hover .text{
   transform:rotateX(450deg);
 }
 .cont:hover .text:last-child{
-  transform:rotateX(810deg);
+  transform:rotateX(-630deg);
+}
+.cont:hover .text:first-child{
+  transform:rotateX(-630deg);
 }
 .cont .text::before 
 {
@@ -53,6 +55,17 @@
   transform:rotateY(90deg) translateX(-25px)
 
 }
+.cont .text:first-child:before 
+{
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background:#03a9fa;
+  transform-origin: left;
+  transform:rotateY(90deg) translateX(-25px)
+
+}
 .cont .text span{
   position: absolute;
   top: 0;
@@ -63,7 +76,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  font-size:4em;
+  font-size:3em;
   color:#fff;
   transform-style: preserve-3d;
   transform: rotateX(calc(90deg * var(--i))) translateZ(25px)
@@ -71,6 +84,11 @@
 .cont .text:last-child span
 {
   background:linear-gradient(#29c040 ,#32ed4e)
+  
+}
+.cont .text:first-child span
+{
+  background:linear-gradient(#03a9fa ,#03a9fa)
   
 }
 .title {
@@ -102,7 +120,7 @@
   position: relative;
   z-index: 1;
   overflow: hidden;
-  font-size: 40px;
+  font-size: 30px;
 }
 .name::before {
   content: attr(data-text);
@@ -111,7 +129,7 @@
   left: 0;
   width: 0;
   height: 100%;
-  color: #01fe87;
+  color: #32ed4e;
   -webkit-texe-stroke: 0vw #383d52;
   overflow: hidden;
   animation: animate 6s linear infinite;
