@@ -19,8 +19,8 @@
 }
 .cont .text{
   position: relative;
-  width:50px;
-  height: 50px;
+  width:60px;
+  height: 60px;
   transform-style:preserve-3d;
   transition:2.5s ease-in-out;
 }
@@ -41,7 +41,7 @@
   height: 100%;
   background:#373737;
   transform-origin: left;
-  transform:rotateY(90deg) translateX(-25px)
+  transform:rotateY(90deg) translateX(-30px)
 
 }
 .cont .text:last-child:before 
@@ -52,7 +52,7 @@
   height: 100%;
   background:#29c040;
   transform-origin: left;
-  transform:rotateY(90deg) translateX(-25px)
+  transform:rotateY(90deg) translateX(-30px)
 
 }
 .cont .text:first-child:before 
@@ -63,7 +63,7 @@
   height: 100%;
   background:#03a9fa;
   transform-origin: left;
-  transform:rotateY(90deg) translateX(-25px)
+  transform:rotateY(90deg) translateX(-30px)
 
 }
 .cont .text span{
@@ -79,7 +79,7 @@
   font-size:3em;
   color:#fff;
   transform-style: preserve-3d;
-  transform: rotateX(calc(90deg * var(--i))) translateZ(25px)
+  transform: rotateX(calc(90deg * var(--i))) translateZ(30px)
 }
 .cont .text:last-child span
 {
@@ -88,7 +88,7 @@
 }
 .cont .text:first-child span
 {
-  background:linear-gradient(#03a9fa ,#03a9fa)
+  background:linear-gradient(#0c6c9c ,#03a9fa)
   
 }
 .title {
