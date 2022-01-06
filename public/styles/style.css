@@ -114,8 +114,8 @@
 
 .name {
   font-family: 'Licorice', cursive;
-  color: #2b2d3b;
-  -webkit-texe-stroke: 0.3vw #383d52;
+  color: #252839;
+  -webkit-texe-stroke: 0.3vw #252839;
   text-transform: uppercase;
   position: relative;
   z-index: 1;
@@ -132,7 +132,7 @@
   color: #32ed4e;
   -webkit-texe-stroke: 0vw #383d52;
   overflow: hidden;
-  animation: animate 6s linear infinite;
+  animation: animate 5s linear infinite;
   text-shadow: 5px 4px 1px #393d4d;
 }
 
