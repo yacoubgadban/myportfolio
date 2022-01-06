@@ -12,9 +12,45 @@ class Main extends React.Component{
             <div className="body">
 
         <div className="main">
+        <div className="cont">
+                <div className="text" style={{"--i":0}}>
+                    <span style={{"--i":0}}>Y</span>
+                    <span style={{"--i":1}}>A</span>
+                    <span style={{"--i":2}}>U</span>
+                    <span style={{"--i":3}}>U</span>
+                </div>
+                <div className="text" style={{"--i":0}}>
+                    <span style={{"--i":0}}>A</span>
+                    <span style={{"--i":1}}>Y</span>
+                    <span style={{"--i":2}}>C</span>
+                    <span style={{"--i":3}}>Y</span>
+                </div>
+                <div className="text" style={{"--i":0}}>
+                    <span style={{"--i":0}}>C</span>
+                    <span style={{"--i":1}}>A</span>
+                    <span style={{"--i":2}}>Y</span>
+                    <span style={{"--i":3}}>B</span>
+                </div>
+                <div className="text" style={{"--i":0}}>
+                    <span style={{"--i":0}}>U</span>
+                    <span style={{"--i":1}}>O</span>
+                    <span style={{"--i":2}}>C</span>
+                    <span style={{"--i":3}}>O</span>
+                </div>
+                <div className="text" style={{"--i":0}}>
+                    <span style={{"--i":0}}>B</span>
+                    <span style={{"--i":1}}>A</span>
+                    <span style={{"--i":2}}>C</span>
+                    <span style={{"--i":3}}>A</span>
+                </div>
+            </div>  
         <div className="text-center">
-            <div > 
+            <div> 
+            
                 <div className="box">
+                    <br/>
+                    <br/>
+                    <br/>
                 <img className="profileImg" src="profile2.jpeg"/>
                 
                 </div> 
